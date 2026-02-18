@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MindSense AI | One Best Next Step</title>
+    <meta
+      name="description"
+      content="MindSense AI helps users self-regulate stress and recovery with one clear next action in under 30 seconds."
+    />
+    <meta name="theme-color" content="#0f1b26" />
+    <meta property="og:title" content="MindSense AI" />
+    <meta property="og:description" content="Sense. Infer. Explain. Act. Measure. Learn." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a href="#top" class="brand" aria-label="MindSense AI home">
+        <span class="brand-mark">MS</span>
+        <span class="brand-text">MindSense AI</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        Menu
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Main">
+        <a href="#loop">Loop</a>
+        <a href="#experience">Experience</a>
+        <a href="#trust">Trust</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#faq">FAQ</a>
+        <a href="#join" class="button button-inline">Get Updates</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Nervous-System Regulation, Rebuilt</p>
+          <h1>One clear next action in under 30 seconds.</h1>
+          <p class="lead">
+            MindSense AI combines state modeling, guided regulation, and measurable feedback into one closed loop that
+            learns what works for each person.
+          </p>
+
+          <div class="hero-cta-row">
+            <a class="button" href="#experience">Explore Product Flow</a>
+            <a class="button button-quiet" href="#trust">How We Keep It Safe</a>
+          </div>
+
+          <div class="hero-note">
+            <span class="dot"></span>
+            <span id="hero-state-line">Live mode: Explainable output with confidence context.</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal" aria-label="Product summary">
+          <h2>Core Product Contract</h2>
+          <ul>
+            <li><strong>Sense</strong> physiology and behavior signals.</li>
+            <li><strong>Infer</strong> current state and top drivers.</li>
+            <li><strong>Recommend</strong> one best intervention.</li>
+            <li><strong>Measure</strong> pre/post impact and improve ranking quality.</li>
+          </ul>
+
+          <div class="metric-grid">
+            <article class="metric-card">
+              <p class="metric-label">Promise</p>
+              <p class="metric-value" data-target="30">0</p>
+              <p class="metric-unit">seconds to clarity</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-label">Core Tabs</p>
+              <p class="metric-value" data-target="3">0</p>
+              <p class="metric-unit">Today · Regulate · Data</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-label">System Loop</p>
+              <p class="metric-value" data-target="6">0</p>
+              <p class="metric-unit">Sense to Learn</p>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section id="loop" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Closed-Loop Intelligence</p>
+          <h2>From signal to action to measurable learning</h2>
+        </div>
+
+        <div class="loop-grid">
+          <article class="loop-step reveal is-active" data-step="0">
+            <span>01</span>
+            <h3>Sense</h3>
+            <p>Ingest signal profile, quality, and recency.</p>
+          </article>
+          <article class="loop-step reveal" data-step="1">
+            <span>02</span>
+            <h3>Infer</h3>
+            <p>Model Load, Readiness, and Consistency with confidence context.</p>
+          </article>
+          <article class="loop-step reveal" data-step="2">
+            <span>03</span>
+            <h3>Explain</h3>
+            <p>Surface ranked drivers and concise rationale.</p>
+          </article>
+          <article class="loop-step reveal" data-step="3">
+            <span>04</span>
+            <h3>Act</h3>
+            <p>Recommend one protocol with clear expected effect.</p>
+          </article>
+          <article class="loop-step reveal" data-step="4">
+            <span>05</span>
+            <h3>Measure</h3>
+            <p>Capture felt impact and physiological response quality.</p>
+          </article>
+          <article class="loop-step reveal" data-step="5">
+            <span>06</span>
+            <h3>Learn</h3>
+            <p>Update recommendation confidence from outcomes over time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Core Experience</p>
+          <h2>Three focused surfaces for one daily regulation flow</h2>
+        </div>
+
+        <div class="surface-picker reveal" role="tablist" aria-label="MindSense tabs">
+          <button class="surface-tab is-selected" role="tab" aria-selected="true" aria-controls="surface-today" data-surface="today">
+            Today
+          </button>
+          <button class="surface-tab" role="tab" aria-selected="false" aria-controls="surface-regulate" data-surface="regulate">
+            Regulate
+          </button>
+          <button class="surface-tab" role="tab" aria-selected="false" aria-controls="surface-data" data-surface="data">
+            Data
+          </button>
+        </div>
+
+        <div class="surface-frame reveal">
+          <article id="surface-today" class="surface-panel is-visible" role="tabpanel" tabindex="0">
+            <h3>Today</h3>
+            <p>State-now understanding with one clear intervention path.</p>
+            <ul>
+              <li>State card with delta tiles and “why this state”.</li>
+              <li>Signal-source quality and diagnostics access.</li>
+              <li>Timeline segments, episodes, and context capture.</li>
+              <li>Best-next-step protocol CTA above the fold.</li>
+            </ul>
+          </article>
+
+          <article id="surface-regulate" class="surface-panel" role="tabpanel" tabindex="0" aria-hidden="true">
+            <h3>Regulate</h3>
+            <p>Guided execution with timer, pacing, and impact recording.</p>
+            <ul>
+              <li>Ranked protocol selection based on current fit.</li>
+              <li>Persistent active-session continuity across lifecycle.</li>
+              <li>Post-session check-in with felt and measured effect.</li>
+              <li>Outcome immediately updates future recommendations.</li>
+            </ul>
+          </article>
+
+          <article id="surface-data" class="surface-panel" role="tabpanel" tabindex="0" aria-hidden="true">
+            <h3>Data</h3>
+            <p>Trends, experiments, and weekly reflection in one workspace.</p>
+            <ul>
+              <li>Signal strip for readiness, activation, and consistency.</li>
+              <li>Trend filters and inspection across 7D / 14D / 30D.</li>
+              <li>Experiment lifecycle from plan to completion.</li>
+              <li>“What’s working for you” personalization summary.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="trust" class="section trust">
+        <div class="section-head reveal">
+          <p class="eyebrow">Explainability, Privacy, Safety</p>
+          <h2>Designed for trust, not black-box anxiety</h2>
+        </div>
+
+        <div class="trust-grid">
+          <article class="trust-card reveal">
+            <h3>Explainable output</h3>
+            <p>Every recommendation includes why-now framing and confidence-aware language.</p>
+          </article>
+          <article class="trust-card reveal">
+            <h3>Local-first posture</h3>
+            <p>Sensitive health-derived processing prioritizes on-device handling and user control.</p>
+          </article>
+          <article class="trust-card reveal">
+            <h3>Wellness boundaries</h3>
+            <p>MindSense supports regulation and reflection, not diagnosis or treatment claims.</p>
+          </article>
+          <article class="trust-card reveal">
+            <h3>Built-in safety paths</h3>
+            <p>High-risk context routes users toward support-first guidance and crisis resources.</p>
+          </article>
+        </div>
+
+        <div class="policy-strip reveal">
+          <p>
+            Crisis support in the U.S.: call or text <strong>988</strong>. If this is an emergency, contact local
+            emergency services immediately.
+          </p>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section">
+        <div class="section-head reveal">
+          <p class="eyebrow">Delivery Roadmap</p>
+          <h2>Phased migration from deterministic demo data to real health ingestion</h2>
+        </div>
+
+        <div class="roadmap-list">
+          <article class="roadmap-item reveal">
+            <span>Phase 1</span>
+            <h3>Health ingestion foundation</h3>
+            <p>Permissions, incremental ingestion, and quality computation.</p>
+          </article>
+          <article class="roadmap-item reveal">
+            <span>Phase 2</span>
+            <h3>Stress timeline intelligence</h3>
+            <p>Baselines, episode detection, confidence, and context loops.</p>
+          </article>
+          <article class="roadmap-item reveal">
+            <span>Phase 3</span>
+            <h3>Personalized closed-loop measurement</h3>
+            <p>Pre/post effect scoring and protocol ranking updates from reward signals.</p>
+          </article>
+          <article class="roadmap-item reveal">
+            <span>Phase 4</span>
+            <h3>Apple Watch active sessions</h3>
+            <p>One-tap watch launch, haptic pacing, and richer active measurement.</p>
+          </article>
+          <article class="roadmap-item reveal">
+            <span>Phase 5</span>
+            <h3>Coaching and narrative polish</h3>
+            <p>Tone personalization and higher-quality weekly stories.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq" class="section faq">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2>What teams and users ask most</h2>
+        </div>
+
+        <details class="faq-item reveal" open>
+          <summary>Is MindSense AI making clinical diagnoses?</summary>
+          <p>No. MindSense is a wellness-support product focused on regulation guidance and learning loops.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>What is the first-screen outcome?</summary>
+          <p>Within 30 seconds, users should understand their current state and one clear next action.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>What makes recommendations change over time?</summary>
+          <p>Recommendation confidence adjusts using outcomes, context fit, and data-quality signals.</p>
+        </details>
+        <details class="faq-item reveal">
+          <summary>How does this handle sparse or inconsistent signals?</summary>
+          <p>MindSense labels confidence and can switch to estimated mode with clear diagnostics and hints.</p>
+        </details>
+      </section>
+
+      <section id="join" class="section join">
+        <div class="join-card reveal">
+          <p class="eyebrow">MindSense AI</p>
+          <h2>Calm intelligence for daily regulation</h2>
+          <p>
+            Follow product updates as we ship the full real-signal roadmap while preserving the fast,
+            explainable UX contract.
+          </p>
+          <div class="hero-cta-row">
+            <a class="button" href="https://github.com/ekosanmij/mindsense" target="_blank" rel="noopener noreferrer">
+              View GitHub Repository
+            </a>
+            <a class="button button-quiet" href="mailto:hello@mindsense.app">Contact Team</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> MindSense AI</p>
+      <p>Warm · Sleek · Intelligent · Calm · Premium</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
